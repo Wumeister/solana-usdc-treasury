@@ -1,0 +1,17 @@
+# secrets - never commit
+.env
+*.env
+!.env.example
+*keypair*.json
+id.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
